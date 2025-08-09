@@ -3,11 +3,14 @@ package com.nt.main;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import jdk.internal.misc.FileSystemOption;
+
 @SpringBootApplication
 public class GitProj02Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(GitProj02Application.class, args);
+		System.out.println("hello user");
 	}
 
 }
